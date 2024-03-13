@@ -1,0 +1,183 @@
+body {
+    background: #d8ccb2;
+}
+
+.general-content {
+    height: 100%;
+    display: grid;
+    align-content: space-between;
+}
+
+@keyframes btn-pisca {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+.btn-pisca {
+  background-color:#ce300c;
+  color:#fff;
+  padding: 0.6em 0.8em;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px; 
+  -webkit-animation: btn-pisca .9s linear infinite;
+  -moz-animation: btn-pisca .9s linear infinite;
+  -ms-animation: btn-pisca .9s linear infinite;
+  -o-animation: btn-pisca .9s linear infinite;
+  animation: btn-pisca .9s linear infinite;
+  cursor: default;
+}
+
+/* Header */
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* navbar */
+.navbar {
+    background: #001848;
+    /* height: 4rem; */
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.navbar-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title, .navbar-quote {
+    color: #FFF;
+    padding: 1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.no-quote {
+    margin: 0 1rem 0 0;
+    padding: 0;
+    color: red;
+    background: #FFF;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+}
+
+.with-quote {
+    margin: 0 1rem 0 0;
+    background: #FFF;
+    color: #001848;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+}
+
+.span-quote {
+    background-color:#77fc89;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    font-weight: 500;
+}
+
+.button-area {
+    justify-content: space-between;
+    display: flex;
+
+    button {
+        margin: 0;
+    }
+}
+
+/* form */
+.form-area {
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+/* table */
+.table-area {
+    margin: 0;
+}
+
+.quote-diff {
+    display: flex;
+    justify-content: center;
+
+    .p-green {
+        background-color: #48f05f;
+    }
+
+    p {
+        background-color: #ff2b2b;
+        padding: 0.3rem;
+        margin: 0;
+        // width: fit-content;
+        width: 5.5rem;
+        text-align: center;
+        border-radius: 0.3rem;
+        color: #FFF;
+        font-weight: 600;
+    }
+}
+
+/* result */
+.result-area {
+    background-color: #FFF;
+    border-radius: 5px;
+    margin-top: 2rem;
+
+    .quote-diff-off {
+
+    }
+}
+
+.no-result {
+    color: #001848;
+}
+
+/* Dolar atual */
+.dolarAtual {
+    text-align: center;
+}
+
+/* Buscar por periodo */
+.buscarPorPeriodo {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.buscarPorPeriodo label, button {
+    margin-left: 20px;
+}
+
+/* Alerta de erro */
+.errorAlert{
+    text-align: center;
+    color: red;
+}
+
+.alert {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-area {
+    // position: absolute;
+    // bottom: 0;
+    // height: 7rem;
+    background-color: #001848;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+    .footer-line {
+        background: rgb(57, 43, 131);
+    }
+}
+
+    
